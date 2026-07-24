@@ -1,8 +1,26 @@
 aid: carbonrobotics
-name: Carbonrobotics
-description: 'Carbonrobotics is a company surfaced as a portfolio company of bond-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carbonrobotics.png
+name: Carbon Robotics
+description: 'Carbon Robotics is a Seattle-based physical-AI and agricultural robotics
+  company building autonomous systems that help farmers cut costs and reduce chemical
+  use. Its flagship LaserWeeder G2 uses computer vision and high-power lasers to eliminate
+  weeds without herbicides, and its Carbon Autonomy product adds remote-supervised
+  autonomy to compatible John Deere tractors. The underlying Carbon AI Large Plant
+  Model is trained on 150 million labeled plants across 15 countries and 100+ crops.
+  Carbon Robotics operates a customer grower cloud portal and Starlink-connected fleet
+  control, but publishes no public developer API, OpenAPI, SDKs, or developer portal
+  as of this profiling.'
 url: https://raw.githubusercontent.com/api-evangelist/carbonrobotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Robotics
+- Agriculture
+- AgTech
+- Artificial Intelligence
+- Computer Vision
+- Automation
+- Autonomous Vehicles
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/carbonrobotics-domain-security.yml
 - type: Website
   url: https://carbonrobotics.com
+- type: Support
+  url: https://carbonrobotics.com/support
+- type: Blog
+  url: https://carbonrobotics.com/news
+- type: PrivacyPolicy
+  url: https://carbonrobotics.com/about/privacy
+- type: TermsOfService
+  url: https://carbonrobotics.com/about/terms
+- type: Login
+  url: https://customer.cloud.carbonrobotics.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
